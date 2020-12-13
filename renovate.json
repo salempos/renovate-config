@@ -1,0 +1,21 @@
+{
+  "extends": [
+    ":separateMajorReleases",
+    ":automergeMinor",
+    ":automergeBranch",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":updateNotScheduled",
+    ":ignoreModulesAndTests",
+    ":pinAllExceptPeerDependencies",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimit20",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor",
+    "workarounds:all",
+    "schedule:earlyMondays"
+  ],
+  "timezone": "Asia/Almaty",
+  "labels": ["dependencies"]
+}
