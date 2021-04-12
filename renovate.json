@@ -11,6 +11,7 @@
     ":pinAllExceptPeerDependencies",
     ":prHourlyLimitNone",
     ":prConcurrentLimit20",
+    "group:monorepos",
     "group:recommended",
     "helpers:disableTypesNodeMajor",
     "workarounds:all",
